@@ -1,0 +1,171 @@
+@charset "utf-8";
+@font-face{
+	font-family: 'Architects Daughter';
+	src:url(../font/ArchitectsDaughter-Regular.ttf);
+	}
+body {
+	background-image: url(../img/lightpaperfibers.png);
+}
+#dis {
+	height: auto;
+	width: 400px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#header {
+	position: relative;
+	width: 400px;
+	height: 100px;
+	margin-bottom: 20px;	
+}
+#logo {
+	height: 100px;
+	width: 208px;
+	margin-left:80px;
+}
+#navk {
+	display: block;
+	width:40px;
+	height:40px;
+	overflow:hidden;
+	transition-property: height,width;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+	position:absolute;
+	top:60px;
+	z-index:2;
+	
+}
+
+#navk:hover {
+	width:130px;
+	height:150px;
+}
+
+#navk ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#navk ul li a {
+	font-family: Architects Daughter;
+	font-size: 11px;
+	font-weight:bold;
+	line-height:20px;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 2px;
+	color: #BF1E2D;
+}
+
+#navk ul li a:hover {
+	color:#EC008C;
+}
+
+#nav { 
+	display:none;
+}
+
+#sosyal {
+	position: absolute;
+    right: 0px; 
+	top: 20px;
+	height: 60px;
+	width: 70px;
+}
+
+#dis #nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#dis #nav ul li {
+	float: left;
+}
+
+#dis #nav ul li a {
+	font-family: 'Architects Daughter';
+	font-size: 12px;
+	padding-left: 20px;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 3px;
+	color: #BF1E2D;
+}
+
+#dis #nav ul li a:hover {
+	color:#EC008C;
+}
+
+#dis #header #nav ul li #m1 {
+	padding: 0px;
+}
+
+#aside  {
+	height: 570px;
+	width: 250px;
+	margin-top: 5px;
+	margin-right:60px;
+}
+
+#section {
+	height: auto;
+	width: 400px;
+	margin-left: 20px;
+	padding: 0px;
+	float:right;
+}
+
+#aside ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#aside ul li a {
+	font-family: Architects Daughter;
+	font-size: 10px;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 3px;
+	color: #666666;
+	line-height: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 1px;
+	width: 250px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+}
+
+#aside ul li .h {
+	font-weight: bold;
+}
+
+
+#aside ul li a:hover {
+	color: #000000;
+}
+#section img{
+    width: 390px;
+}
+h1 {
+	font-family: Architects Daughter;
+	font-size: 20px;
+	line-height: 40px;
+	color: #C02E3B;
+	text-align: center;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #C02E3B;
+	margin:0px;
+}
+p {
+	font-family: Architects Daughter;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 15px;
+}

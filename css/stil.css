@@ -1,0 +1,136 @@
+@charset "utf-8";
+@font-face{
+	font-family: 'Architects Daughter';
+	src:url(../font/ArchitectsDaughter-Regular.ttf);
+	}
+body {
+	background-image: url(../img/lightpaperfibers.png);
+}
+#dis {
+	height: auto;
+	width: 1000px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#header {
+	position: relative;
+	width: 1000px;
+	height: 100px;
+	margin-bottom: 20px;	
+}
+#logo {
+	height: 100px;
+	width: 208px;
+}
+
+#nav {
+	position: absolute;
+    	right: 130px; 
+    	top: 50px; 
+	height: 20px;
+	width: 480px;
+}
+
+#sosyal {
+	position: absolute;
+    	right: 0px; 
+	top: 40px;
+	height: 30px;
+	width: 130px;
+}
+
+#dis #nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#dis #nav ul li {
+	float: left;
+}
+
+#dis #nav ul li a {
+	font-family: 'Architects Daughter';
+	font-size: 12px;
+	padding-left: 20px;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 3px;
+	color: #BF1E2D;
+}
+
+#dis #nav ul li a:hover {
+	color:#EC008C;
+}
+
+#dis #header #nav ul li #m1 {
+	padding: 0px;
+}
+
+#aside  {
+	height: 570px;
+	width: 250px;
+	margin-top: 45px;
+	float:right;
+}
+#section {
+	height: auto;
+	width: 730px;
+	margin-left: 20px;
+	padding: 0px;
+	float: right;
+	/* [disabled]background-color:red; */
+}
+
+#aside ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#aside ul li a {
+	font-family: Architects Daughter;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 3px;
+	color: #666666;
+	line-height: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 1px;
+	width: 250px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+}
+
+#aside ul li .h {
+	font-weight: bold;
+}
+
+
+#aside ul li a:hover {
+	color: #000000;
+}
+
+h1 {
+	font-family: Architects Daughter;
+	font-size: 30px;
+	line-height: 70px;
+	color: #C02E3B;
+	text-align: center;
+	letter-spacing: 3px;
+	border-bottom: 1px solid #C02E3B;
+	margin:0px;
+}
+p {
+	font-family: Architects Daughter;
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+#navk {
+	display: none;
+}

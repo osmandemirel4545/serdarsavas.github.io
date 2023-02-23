@@ -1,98 +1,76 @@
-ï»¿<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+<meta name="viewport" content="width=device-width" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Aliya Ä°zzerbegoviÃ§ Mesleki ve Teknik Anadolu Lisesi</title>
+<title>Online Tasarım</title>
 <!-- TemplateEndEditable -->
-<link href="../stilim.css" rel="stylesheet" type="text/css" />
+<link href="../css/stil.css" rel="stylesheet" type="text/css" />
+<!-- Media Query 1 -->
+<link href="../css/stil.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1000px)" />
+<!-- Media Query 2 -->
+<link href="../css/stilt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px) and (max-width:999px)" />
+<!-- Media Query 3 -->
+<link href="../css/stilc.css" rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width:767px)" />
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
 
 <body>
-<div id="container">
-  <header><img src="../resimler/banner.jpg"/></header>
-  <nav>
-<ul>
-      <li><a href="../index.html">Anasayfa</a></li>
-      <li><a href="#">BÃ¶lÃ¼mlerimiz</a></li>
-      <li><a href="#">Kadromuz</a></li>
-      <li><a href="#">BaÅŸarÄ±larÄ±mÄ±z</a></li>
-      <li><a href="#">Galeri</a></li>
-      <li><a href="#">Rehberlik </a></li>
-      <li><a href="#">AtatÃ¼rk</a></li>
-      <li><a href="#">Ä°letiÅŸim</a></li>
-    </ul><img src="../resimler/menu_ek.png" width="6" height="35" />
-  </nav>
-  <section>
-  	<aside>
-      <div>
-        <p class="yan_menu_baslik">OKULUMUZ</p>
+
+<div id="dis">
+	<div id="navk">
+  		<img src="../img/menu.png"/>
+  		<ul>
+			<li><a href="#" id="e1">Tüm Hizmetler</a></li>
+			<li><a href="#">Hakkımızda</a></li>
+			<li><a href="#">Referanslarımız</a></li>
+			<li><a href="#">İletişim</a></li>
+		</ul>
+    </div>
+  <div id="header"> 	
+  <div id="logo"><img src="../img/logo.png"/></div> 
+  <div id="nav">		
         <ul>
-          <li><a href="tarihce.html">TarihÃ§e </a></li>
-          <li><a href="misyon.html">Misyon</a></li>
-          <li><a href="vizyon.html">Vizyon</a></li>
-          <li><a href="#">Projelerimiz</a></li>
-          <li><a href="#">Faaliyetlerimiz</a></li>
-          <li><a href="#">Hizmet StandartlarÄ±mÄ±z</a></li>
-        </ul>		
-      </div>
-      <div>
-        <p class="yan_menu_baslik">BAÄLANTILAR</p>
- 		<ul>
-          <li><a href="http://akhisar.meb.gov.tr">Akhisar MEM</a></li>
-          <li><a href="http://manisa.meb.gov.tr">Manisa MEM</a></li>
-          <li><a href="http://akhisarram.meb.k12.tr">RAM</a></li>
-          <li><a href="https://e-okul.meb.gov.tr/">E-OKUL</a></li>
-          <li><a href="http://www.eba.gov.tr/">EÄŸitim BiliÅŸim AÄŸÄ±</a></li>
-          <li><a href="http://mbs.meb.gov.tr/">Mesleki Bilgi Sistemi</a></li>
-        </ul> 
-      </div>
-      <div>
-        <p class="yan_menu_baslik">OKUL Ä°STATÄ°STÄ°KLERÄ°</p>
-        <img src="../resimler/manisa.png" width="179" height="93" /> 
-		&nbsp;&nbsp;Ã–ÄŸretmen SayÄ±sÄ±: 69<br />
-        &nbsp;&nbsp;Ã–ÄŸrenci SayÄ±sÄ±: 794<br />
-        &nbsp;&nbsp;Derslik SayÄ±sÄ±: 11<br />
-        &nbsp;&nbsp;AtÃ¶lye SayÄ±sÄ±: 10
-       </div>
-    </aside>
-    <article><!-- TemplateBeginEditable name="EditRegion1" -->
-    
-    <!-- TemplateEndEditable -->
-    
-    </article>
-    <aside>
-      <div>
-        <p class="yan_menu_baslik">MEB</p>
-		<iframe width="179" height="130" src="https://www.youtube.com/embed/7xPdCm_3Dn0?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div>
-        <p class="yan_menu_baslik">DUYURULAR</p>
-        <marquee direction="up" height="151px" scrolldelay="100" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
-         			-Okulumuzda Birinci DÃ¶nem 2. Ortak SÄ±navlarÄ± 2 Ocak tarihinden itibaren baÅŸlanacaktÄ±r.<br /><br /> 
-					-SÄ±navlara katÄ±lamayan Ã¶ÄŸrencilerimizin, Mazaret SÄ±navlarÄ±na katÄ±labilmeleri iÃ§in raporlarÄ±nÄ± idareye teslim etmeleri gerekmektedir. <br /><br />
-					-20 Ocak 2022 Pazartesi gÃ¼nÃ¼ yarÄ±yÄ±l tatil baÅŸlayacaktÄ±r<br /><br />
-                    -2022-2023 eÄŸitim Ã¶ÄŸretim yÄ±lÄ±nÄ±n ikinci dÃ¶nemi 6 Åubat 2022 Pazartesi gÃ¼nÃ¼ baÅŸlayacaktÄ±r.<br /><br />
-         </marquee>
-      </div>
-      <div>
-        <p class="yan_menu_baslik">DOSYALAR</p>
-        <ul>
-          <li><a href="../dosyalar/ct.pdf">Ã‡alÄ±ÅŸma Takvimi</a></li>
-          <li><a href="../dosyalar/Sinif_Ders_Prog.pdf">SÄ±nÄ±f Ders ProgramÄ±</a></li>
-          <li><a href="../dosyalar/OgretmenZoomListesi.pdf">Ã–ÄŸretmen Zoom Bilgileri</a></li>
-          <li><a href="../dosyalar/hobr.pdf">Hijyen KÄ±lavuzu</a></li>
-          <li><a href="../dosyalar/neden_tekniklise.pdf">Neden Teknik Lise?</a></li>
-          <li><a href="https://www.osym.gov.tr/">YKS Rehberi </a></li>
-          <li><a href="#">Okul YerleÅŸim PlanÄ±</a></li>
-        </ul>
-      </div>   
-    </aside>
-  
-  </section>
-  <footer></footer>
+			<li><a href="#" id="m1">Tüm Hizmetler</a></li>
+			<li><a href="#">Hakkımızda</a></li>
+			<li><a href="#">Referanslarımız</a></li>
+			<li><a href="#">İletişim</a></li>
+		</ul>
+  </div>
+  <div id="sosyal"> <a href="#"><img src="../img/face1.png" width="29" height="30" /></a> 
+    <a href="#"><img src="../img/insta.png" width="29" height="30" /></a>
+    <a href="#"><img src="../img/twiter.png" width="29" height="30" /></a>
+    <a href="#"><img src="../img/mail.png" width="29" height="30" /></a>  
+  </div>
+  </div>
+  <div id="section"><!-- TemplateBeginEditable name="EditRegion1" -->Content for  id "section" Goes Here<!-- TemplateEndEditable --></div>
+  <div id="aside"> 
+  		<ul>
+			<li><a href="#" class="h">Grafik Tasarımı</a></li>
+			<li><a href="#">Kurumsal Kimlik</a></li>
+			<li><a href="#">Basılı İşler</a></li>
+			<li><a href="#">Ambalaj Tasarımı</a></li>
+            <li><a href="#">Dijital Tasarımı</a></li>
+            <li><a href="#" class="h">Dijital Reklam</a></li>
+            <li><a href="#">Google Reklamları</a></li>
+            <li><a href="#">Facebook Reklamları</a></li>
+            <li><a href="#">Instagram Reklamları</a></li>
+            <li><a href="#">Youtube Reklamları</a></li>
+            <li><a href="#" class="h">Web Tasarımı</a></li>
+            <li><a href="#">E-ticaret Sitesi</a></li>
+            <li><a href="#">Kişisel Web Sitesi</a></li>
+            <li><a href="#">Kurumsal Web Sitesi</a></li>
+            <li><a href="#" class="h">Ürün Çekimi</a></li>
+            <li><a href="#">E-ticaret Ürün Çekimleri</a></li>
+            <li><a href="#">Sosyal Medya Çekimleri</a></li>
+            <li><a href="#" class="h">Sosyal Medya Yönetimi</a></li>
+            <li><a href="#">Post Tasarımları</a></li>
+            <li><a href="#">İçerik Yönetimi</a></li>
+            <li><a href="#">Reklam Yönetimi</a></li>
+		</ul>
+  </div>
 </div>
 </body>
 </html>

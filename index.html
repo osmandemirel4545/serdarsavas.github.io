@@ -1,317 +1,106 @@
-<!DOCTYPE html>
-<html><!-- InstanceBegin template="/Templates/sablon.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/sablon.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+<meta name="viewport" content="width=device-width" />
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Aliya Ä°zzerbegoviÃ§ Mesleki ve Teknik Anadolu Lisesi</title>
+<title>Online Tasarým</title>
 <!-- InstanceEndEditable -->
-<link href="stilim.css" rel="stylesheet" type="text/css" />
+<link href="css/stil.css" rel="stylesheet" type="text/css" />
+<!-- Media Query 1 -->
+<link href="css/stil.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1000px)" />
+<!-- Media Query 2 -->
+<link href="css/stilt.css" rel="stylesheet" type="text/css" media="only screen and (min-width:768px) and (max-width:999px)" />
+<!-- Media Query 3 -->
+<link href="css/stilc.css" rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width:767px)" />
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
 </head>
 
 <body>
-<div id="container">
-  <header><img src="resimler/banner.jpg"/></header>
-  <nav>
-<ul>
-      <li><a href="index.html">Anasayfa</a></li>
-      <li><a href="#">BÃ¶lÃ¼mlerimiz</a></li>
-      <li><a href="#">Kadromuz</a></li>
-      <li><a href="#">BaÅŸarÄ±larÄ±mÄ±z</a></li>
-      <li><a href="#">Galeri</a></li>
-      <li><a href="#">Rehberlik </a></li>
-      <li><a href="#">AtatÃ¼rk</a></li>
-      <li><a href="#">Ä°letiÅŸim</a></li>
-    </ul><img src="resimler/menu_ek.png" width="6" height="35" />
-  </nav>
-  <section>
-  	<aside>
-      <div>
-        <p class="yan_menu_baslik">OKULUMUZ</p>
-        <ul>
-          <li><a href="tarihce.html">TarihÃ§e </a></li>
-          <li><a href="misyon.html">Misyon</a></li>
-          <li><a href="vizyon.html">Vizyon</a></li>
-          <li><a href="#">Projelerimiz</a></li>
-          <li><a href="#">Faaliyetlerimiz</a></li>
-          <li><a href="#">Hizmet StandartlarÄ±mÄ±z</a></li>
-        </ul>		
-      </div>
-      <div>
-        <p class="yan_menu_baslik">BAÄžLANTILAR</p>
- 		<ul>
-          <li><a href="http://akhisar.meb.gov.tr">Akhisar MEM</a></li>
-          <li><a href="http://manisa.meb.gov.tr">Manisa MEM</a></li>
-          <li><a href="http://akhisarram.meb.k12.tr">RAM</a></li>
-          <li><a href="https://e-okul.meb.gov.tr/">E-OKUL</a></li>
-          <li><a href="http://www.eba.gov.tr/">EÄŸitim BiliÅŸim AÄŸÄ±</a></li>
-          <li><a href="http://mbs.meb.gov.tr/">Mesleki Bilgi Sistemi</a></li>
-        </ul> 
-      </div>
-      <div>
-        <p class="yan_menu_baslik">OKUL Ä°STATÄ°STÄ°KLERÄ°</p>
-        <img src="resimler/manisa.png" width="179" height="93" /> 
-		&nbsp;&nbsp;Ã–ÄŸretmen SayÄ±sÄ±: 69<br />
-        &nbsp;&nbsp;Ã–ÄŸrenci SayÄ±sÄ±: 794<br />
-        &nbsp;&nbsp;Derslik SayÄ±sÄ±: 11<br />
-        &nbsp;&nbsp;AtÃ¶lye SayÄ±sÄ±: 10
-       </div>
-    </aside>
-    <article><!-- InstanceBeginEditable name="EditRegion1" -->
-       <!-- Jssor Slider Begin -->
-    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
-    <script>
-        jssor_2_slider_init = function (containerId) {
-            //Reference http://www.jssor.com/development/slider-with-slideshow-no-jquery.html
-            //Reference http://www.jssor.com/development/tool-slideshow-transition-viewer.html
 
-            var _SlideshowTransitions = [
-            //Fade in R
-            {$Duration: 1200, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
-            //Fade out L
-            , { $Duration: 1200, x: 0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
-            ];
-
-            var options = {
-                $AutoPlay: 1,                                       //[Optional] Auto play or not, to enable slideshow, this option must be set to greater than 0. Default value is 0. 0: no auto play, 1: continuously, 2: stop at last slide, 4: stop on click, 8: stop on user navigation (by arrow/bullet/thumbnail/drag/arrow key navigation)
-                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
-                $Idle: 4000,                                        //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
-
-                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
-                $Cols: 1,                                           //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
-                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
-                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
-                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
-                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
-
-                $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
-                    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
-                    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
-                    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
-                    $ShowLink: true                                 //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
-                },
-
-                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
-                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $Rows: 1,                                       //[Optional] Specify lanes to arrange items, default value is 1
-                    $SpacingX: 10,                                  //[Optional] Horizontal space between each item in pixel, default value is 0
-                    $SpacingY: 10                                   //[Optional] Vertical space between each item in pixel, default value is 0
-                },
-
-                $ArrowNavigatorOptions: {
-                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 2                                  //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                },
-
-                $ThumbnailNavigatorOptions: {
-                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $ActionMode: 0,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
-                    $NoDrag: true                                   //[Optional] Disable drag or not, default value is false
-                }
-            };
-
-            var jssor_sliderb = new $JssorSlider$(containerId, options);
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizing
-            function ScaleSlider() {
-                var parentWidth = jssor_sliderb.$Elmt.parentNode.clientWidth;
-                if (parentWidth)
-                    jssor_sliderb.$ScaleWidth(Math.min(parentWidth, 480));
-                else
-                    $Jssor$.$Delay(ScaleSlider, 30);
-            }
-
-            ScaleSlider();
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            //responsive code end
-        };
-    </script>
-    <!-- Jssor Slider Begin -->
-    
-    <div id="jssor_2_container" style="position: relative; top: 0px; left: 0px; width: 480px; height: 300px; overflow: hidden; ">
-
-        <!-- Loading Screen -->
-        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
-                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
-            </div>
-            <div style="position: absolute; display: block; background: url(resimler/loading.gif) no-repeat center center;
-                top: 0px; left: 0px;width: 100%;height:100%;">
-            </div>
-        </div>
-
-        <!-- Slides Container -->
-        <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 480px; height: 300px;
-            overflow: hidden;">
-            <div>
-                <img u=image src="resimler/okul.jpg" />
-                <div u="thumb"><a href="me1000.html">MESLEKÄ° EÄžÄ°TÄ°MDE 1.000 OKUL PROJESÄ°</a></div>
-            </div>
-            <div>
-                <img u=image src="resimler/ab.jpg" />
-                <div u="thumb"><a href="mlab.html">MESLEK LÄ°SELÄ°LER AÄ°LELER Ä°LE BULUÅžUYOR ETKÄ°NLÄ°KLERÄ°MÄ°Z</a></div>
-            </div>
-            <div>
-                <img u=image src="resimler/10kasim.jpg" />
-                <div u="thumb"><a href="10kasim.html">10 KASIM 2020 ATATÃœRK'Ãœ ANMA PROGRAMI</a></div>
-            </div>
-        </div>
-        
-        <!--#region Thumbnail Navigator Skin Begin -->
-        <!-- Help: http://www.jssor.com/development/slider-with-thumbnail-navigator-no-jquery.html -->
-        <!-- thumbnail navigator container -->
-        <div u="thumbnavigator" style="position: absolute; bottom: 0px; left: 0px; height:45px; width:480px;">
-            <div style="filter: alpha(opacity=40); opacity:0.4; position: absolute; display: block;
-                background-color: #000000; top: 0px; left: 0px; width: 100%; height: 100%;">
-            </div>
-            <!-- Thumbnail Item Skin Begin -->
-            <div u="slides">
-                <div u="prototype" style="position: absolute; width: 480px; height: 45px; top: 0; left: 0;">
-                    <div u="thumbnailtemplate" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; font-family: verdana; font-weight: normal; color:#fff; line-height: 45px; font-size:20px; padding-left:10px;"></div>
-                </div>
-            </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!--#endregion ThumbnailNavigator Skin End -->
-        
-        <!--#region Bullet Navigator Skin Begin -->
-        <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-no-jquery.html -->
-        <style>
-            /* jssor slider bullet navigator skin 01 css */
-            /*
-            .jssorb01 div           (normal)
-            .jssorb01 div:hover     (normal mouseover)
-            .jssorb01 .av           (active)
-            .jssorb01 .av:hover     (active mouseover)
-            .jssorb01 .dn           (mousedown)
-            */
-            .jssorb01 {
-                position: absolute;
-            }
-            .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
-                position: absolute;
-                /* size of bullet elment */
-                width: 12px;
-                height: 12px;
-                filter: alpha(opacity=70);
-                opacity: .7;
-                overflow: hidden;
-                cursor: pointer;
-                border: #000 1px solid;
-            }
-            .jssorb01 div { background-color: gray; }
-            .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-            .jssorb01 .av { background-color: #fff; }
-            .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
-        </style>
-        <!-- bullet navigator container -->
-        <div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
-            <!-- bullet navigator item prototype -->
-            <div u="prototype"></div>
-        </div>
-        <!--#endregion Bullet Navigator Skin End -->
-        
-        <!--#region Arrow Navigator Skin Begin -->
-        <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-no-jquery.html -->
-        <style>
-            /* jssor slider arrow navigator skin 05 css */
-            /*
-            .jssora05l                  (normal)
-            .jssora05r                  (normal)
-            .jssora05l:hover            (normal mouseover)
-            .jssora05r:hover            (normal mouseover)
-            .jssora05l.jssora05ldn      (mousedown)
-            .jssora05r.jssora05rdn      (mousedown)
-            .jssora05l.jssora05lds      (disabled)
-            .jssora05r.jssora05rds      (disabled)
-            */
-            .jssora05l, .jssora05r {
-                display: block;
-                position: absolute;
-                /* size of arrow element */
-                width: 40px;
-                height: 40px;
-                cursor: pointer;
-                background: url(resimler/a17.png) no-repeat;
-                overflow: hidden;
-            }
-            .jssora05l { background-position: -10px -40px; }
-            .jssora05r { background-position: -70px -40px; }
-            .jssora05l:hover { background-position: -130px -40px; }
-            .jssora05r:hover { background-position: -190px -40px; }
-            .jssora05l.jssora05ldn { background-position: -250px -40px; }
-            .jssora05r.jssora05rdn { background-position: -310px -40px; }
-
-            .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
-            .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
-        </style>
-        <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora05l" style="top: 123px; left: 8px;">
-        </span>
-        <!-- Arrow Right -->
-        <span u="arrowright" class="jssora05r" style="top: 123px; right: 8px;">
-        </span>
-        <!-- Trigger -->
-        <script>
-            jssor_2_slider_init('jssor_2_container');
-        </script>
+<div id="dis">
+	<div id="navk">
+  		<img src="img/menu.png"/>
+  		<ul>
+			<li><a href="#" id="e1">Tüm Hizmetler</a></li>
+			<li><a href="#">Hakkýmýzda</a></li>
+			<li><a href="#">Referanslarýmýz</a></li>
+			<li><a href="#">Ýletiþim</a></li>
+		</ul>
     </div>
-    <!-- Jssor Slider End -->
-
-    <div id="link_resim"><img src="resimler/link_resim.png" usemap="#konum">
-      <map name="konum">
-        <area shape="rect" coords="0,0,120,55" href="https://e-okul.meb.gov.tr" target="_blank">
-        <area shape="rect" coords="121,0,255,55" href="https://mebbis.meb.gov.tr/" target="_blank">
-      </map>
-    
-    </div>
-
-    <!-- InstanceEndEditable -->
-    
-    </article>
-    <aside>
-      <div>
-        <p class="yan_menu_baslik">MEB</p>
-		<iframe width="179" height="130" src="https://www.youtube.com/embed/7xPdCm_3Dn0?start=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div>
-        <p class="yan_menu_baslik">DUYURULAR</p>
-        <marquee direction="up" height="151px" scrolldelay="100" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
-         			-Okulumuzda Birinci DÃ¶nem 2. Ortak SÄ±navlarÄ± 2 Ocak tarihinden itibaren baÅŸlanacaktÄ±r.<br /><br /> 
-					-SÄ±navlara katÄ±lamayan Ã¶ÄŸrencilerimizin, Mazaret SÄ±navlarÄ±na katÄ±labilmeleri iÃ§in raporlarÄ±nÄ± idareye teslim etmeleri gerekmektedir. <br /><br />
-					-20 Ocak 2022 Pazartesi gÃ¼nÃ¼ yarÄ±yÄ±l tatil baÅŸlayacaktÄ±r<br /><br />
-                    -2022-2023 eÄŸitim Ã¶ÄŸretim yÄ±lÄ±nÄ±n ikinci dÃ¶nemi 6 Åžubat 2022 Pazartesi gÃ¼nÃ¼ baÅŸlayacaktÄ±r.<br /><br />
-         </marquee>
-      </div>
-      <div>
-        <p class="yan_menu_baslik">DOSYALAR</p>
+  <div id="header"> 	
+  <div id="logo"><img src="img/logo.png"/></div> 
+  <div id="nav">		
         <ul>
-          <li><a href="dosyalar/ct.pdf">Ã‡alÄ±ÅŸma Takvimi</a></li>
-          <li><a href="dosyalar/Sinif_Ders_Prog.pdf">SÄ±nÄ±f Ders ProgramÄ±</a></li>
-          <li><a href="dosyalar/OgretmenZoomListesi.pdf">Ã–ÄŸretmen Zoom Bilgileri</a></li>
-          <li><a href="dosyalar/hobr.pdf">Hijyen KÄ±lavuzu</a></li>
-          <li><a href="dosyalar/neden_tekniklise.pdf">Neden Teknik Lise?</a></li>
-          <li><a href="https://www.osym.gov.tr/">YKS Rehberi </a></li>
-          <li><a href="#">Okul YerleÅŸim PlanÄ±</a></li>
-        </ul>
-      </div>   
-    </aside>
+			<li><a href="#" id="m1">Tüm Hizmetler</a></li>
+			<li><a href="#">Hakkýmýzda</a></li>
+			<li><a href="#">Referanslarýmýz</a></li>
+			<li><a href="#">Ýletiþim</a></li>
+		</ul>
+  </div>
+  <div id="sosyal"> <a href="#"><img src="img/face1.png" width="29" height="30" /></a> 
+    <a href="#"><img src="img/insta.png" width="29" height="30" /></a>
+    <a href="#"><img src="img/twiter.png" width="29" height="30" /></a>
+    <a href="#"><img src="img/mail.png" width="29" height="30" /></a>  
+  </div>
+  </div>
+  <div id="section"><!-- InstanceBeginEditable name="EditRegion1" -->    <h1>Grafik Tasarýmý</h1>
+
+<p>Dünyanýn en iyi markalarý her zaman baþarýlý bir logo ile bu günlere ulaþmayý baþarmýþtýr. Yeni bir iþletme, yeni bir marka üretilirken logo tasarýmýna dikkat edilmesi ve iþinde uzman olan kiþiler ile bu tasarýmýn gerçekleþtirilmesi gerekmektedir. Ýþletmeniz hangi sektörde olursa olsun kendisine ait bir logoya ihtiyaç duyacaktýr. Logonun kurulum döneminde belirlenmesi ve sonrasýnda deðiþmeden yýllar boyu devam edebilmesi gerekmektedir.</p>
+  <img src="img/logo.jpg" />
+<p>Yapýlmasý gereken logo tasarýmý belirli özelliklere sahip olmalýdýr. Bu özellikleri taþýmayan logolarýn müþterilere sunduðu izlenim baþarýlý olmamaktadýr. Grafik tasarým sektöründe bir çok farklý markaya hizmet veren bir tasarýmcý olduðumdan logo tasarýmýnda markanýz için de yaratýcý seçenekler ortaya çýkarabilirim. Sizler ile sürekli olarak iletiþim halinde kalarak tasarlayacaðým logolar, markanýzýn geliþimine ve kurumsal marka algýsýna katký saðlayacak.</p>
+
+  <h1>Dijital Reklam</h1>
+
+<p>Dijital dünyada net olarak görünebilmek adýna yapýlandýrýlmýþ bu reklam modülü sayesinde tüm internet dünyasýnda görünebilir olabilirsiniz.</p>
+  <img src="img/tasarim.jpg" />
+<p>Facebook, Instagram, Youtube ve diðer tüm reklam veren dijital platformlar ile dijital medya satýn alým yapabilir dilerseniz tüm mecralarda doðru kitleye ulaþabilirsiniz.</p>
+
+  <h1>Web Tasarýmý</h1>
+
+<p>Web siteniz için tasarlanan web tasarým arayüzü, ziyaretçilerin kullanýmý dikkate alýnarak; kullanýcý dostu olarak tasarlanýr. Bu tasarýmý kullanýcýlarýn hem bilgisayarda hem de mobilde rahatça kullanabilmeleri için gerekli web tasarým çalýþmalarý gerçekleþtirilir.</p>
+  <img src="img/design.jpg" />
+<p>Yönetim paneli sayesinde web sayfanýz güncel kalacaktýr. Ýstediðiniz an fotoðraf yükleyebilir, içerik ekleyebilir, ürünlerinizi güncelleyebilirsiniz. Web tasarým firmalarý içinde kullanýmý en kolay ve sorunsuz iþleyen Web Yönetim Paneli hizmetini sizlere sunulacaktýr.</p>
+
+  <h1>Ürün Çekimi</h1>
+
+<p>Reklam fotoðrafçýlýðýnýn ana unsuru olan Profesyonel Ürün Fotoðraf ya da Katalog Çekimlerinin yapýlmasýnda da ürün, ürün nitelikleri, reklam kampanyasý ve fotoðrafçý birbirinin yine ayrýlmaz parçasý...</p>
+  <img src="img/cekim.jpg" />
+<p>Bir Ürün ya da Katalog Fotoðraf Çekimi yapýlýrken, Profesyonel fotoðraf çekimi yapýlacak ürünlerin ne kadar öne çýkmasý gerektiði, hangi nitelikleriyle öne çýkacaðý, bu ürünler içerisinde hangilerinin lokomotif ürünler olduðu bizim için önemli. Modelli | Modelsiz veya hikayesi olsun ya da olmasýn gerçekleþtirilecek Profesyonel Ürün Fotoðraf çekimlerinde reklamla verilmek istenen mesaj ve ürüne ait nitelikler doðrultusunda deðiþecek çekimler, izleyici ve nihai müþterinizin aklýna sokmak istediðiniz mesajý tam olarak yansýtacaktýr.</p>
+
+  <h1>Sosyal Medya Çekimleri</h1>
+
+<p>Video prodüksiyon ekibimiz tanýtým filmi ve reklam çekimlerinizi sizin için hayata geçiriyor; rakiplerinize deyim yerindeyse gövde gösterisi yapmanýzý saðlýyor. Özellikle sosyal medya reklamlarýnda ki kýsa ve etkili video filmler ile reklam çekimlerinizi yapýyoruz.</p>
+  <img src="img/tasarim.jpg" />
+<p>Çekilen tüm görüntülerin kurgu ve montajlarý ekibimiz tarafýndan gece gündüz demeden yapýlýyor. Hedef kitlenizi göz önünde bulundurarak, en iyi reklam filmini zihinlere iþliyoruz. Sosyal medya alanýndaki çalýþmalarýmýz ile bu zamana kadar birçok firmanýn gözlere hitap eden projelerine imza atýyor</p>
   
-  </section>
-  <footer></footer>
+  <!-- InstanceEndEditable --></div>
+  <div id="aside"> 
+  		<ul>
+			<li><a href="#" class="h">Grafik Tasarýmý</a></li>
+			<li><a href="#">Kurumsal Kimlik</a></li>
+			<li><a href="#">Basýlý Ýþler</a></li>
+			<li><a href="#">Ambalaj Tasarýmý</a></li>
+            <li><a href="#">Dijital Tasarýmý</a></li>
+            <li><a href="#" class="h">Dijital Reklam</a></li>
+            <li><a href="#">Google Reklamlarý</a></li>
+            <li><a href="#">Facebook Reklamlarý</a></li>
+            <li><a href="#">Instagram Reklamlarý</a></li>
+            <li><a href="#">Youtube Reklamlarý</a></li>
+            <li><a href="#" class="h">Web Tasarýmý</a></li>
+            <li><a href="#">E-ticaret Sitesi</a></li>
+            <li><a href="#">Kiþisel Web Sitesi</a></li>
+            <li><a href="#">Kurumsal Web Sitesi</a></li>
+            <li><a href="#" class="h">Ürün Çekimi</a></li>
+            <li><a href="#">E-ticaret Ürün Çekimleri</a></li>
+            <li><a href="#">Sosyal Medya Çekimleri</a></li>
+            <li><a href="#" class="h">Sosyal Medya Yönetimi</a></li>
+            <li><a href="#">Post Tasarýmlarý</a></li>
+            <li><a href="#">Ýçerik Yönetimi</a></li>
+            <li><a href="#">Reklam Yönetimi</a></li>
+		</ul>
+  </div>
 </div>
 </body>
 <!-- InstanceEnd --></html>
